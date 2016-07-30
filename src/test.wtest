@@ -1,0 +1,6 @@
+import juanYSuMascota.*
+test "juan adopta mascota y la mascota lo reconoce como su duenio" {
+	juan.mascota(firulais)
+	assert.that(firulais.duenio() == juan)
+
+}

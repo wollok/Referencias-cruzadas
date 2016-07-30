@@ -1,16 +1,16 @@
 
 object juan {
-	var mascota 
+	var mascota
 
 	method mascota(_mascota) {
-		mascota = _mascota 
-		mascota.duenio(self)
+		mascota = _mascota mascota.duenio(self)
 	}
-	method saludar() {return 'hola'}
 }
 
 object firulais {
-	var duenio 
+	var duenio
 
 	method duenio(_duenio) { duenio = _duenio }
+
+	method duenio() { return duenio }
 }
